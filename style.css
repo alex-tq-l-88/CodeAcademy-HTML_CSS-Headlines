@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Libre Baskerville', sans-serif;
+}
+
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+h1 {font-size: 30px;}
+h2 {font-size:20px;}
+
+/*----HEADER----*/
+.header h2{
+  margin:0;
+  float: left;
+  padding: 10px 15px;
+}
+
+.header ul{
+  list-style:none;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+.header ul li {
+  display:inline-block;
+  font-size: 14px;
+  padding: 10px 15px;
+  text-align: center;
+  margin:0;
+}
+
+/*----Jumbotron---*/
+.jumbotron {
+  background-color: transparent;
+  padding: 100px 0px;
+}
+
+.jumbotron h1{
+	text-shadow: none;
+  font-size:30px;
+}
+
+.jumbotron .highlight {
+  color:#FFC200;
+}
+
+/*---Banner---*/
+.banner {
+  background-color:#444444;
+  text-align: center;
+  text-shadow:none;
+  padding: 30px 0px;
+}
+
+.banner h1, p {
+  color: white;
+}
+
+.banner p{font-size:12px;}
+
+/*---CARDS---*/
+.cards {
+  background-color:#FFC200;
+  text-align:center;
+  padding: 20px 0px;
+}
+
+.cards h2 {color:#444444;}
+
+.cards .tile {
+  width: 70%;
+	height: 70%;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/*---FOOTER---*/
+.footer {
+  background-color:#444444;
+  padding: 30px 0px;
+}
+
+.footer h3 {
+  color:white;
+  font-size:12px;
+  text-align:left;
+}
+
+.footer p {
+  color:white;
+  font-size:9px;
+  text-align:left;
+  margin:1px;
+}
+
+.footer ul, li {
+  display: inline;
+	list-style:none;
+}
+
+.footer img {
+  width: 30px;
+  height: 30px;
+}
+
+
+
+@media (max-width: 992px) {
+  .col-md-4 {
+    margin: 0 auto 0;
+    text-align: center;
+    width: 100%;
+  }
+  .cards img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .header h1 {
+    text-align: center;
+  }
+
+  .nav li {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cards img {
+    width: 100%;
+  }
+}
